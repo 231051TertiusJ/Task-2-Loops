@@ -12,9 +12,14 @@ for(let i = 0; i < users.length; i++){
     if(users[i] === "Steve"){
         stevePresent = true;
     }
+
 }
 
-console.log("Is Steve on the list? Answer: " + stevePresent)
+if(stevePresent = true){
+    console.log("Yes, Steve is present")
+} else {
+    console.log("No, Steve is not present")
+}
 
 
 
@@ -27,6 +32,10 @@ console.log("Is Steve on the list? Answer: " + stevePresent)
 let computers = [600, 1000, 400, 300, 600, 200, 100, 400, 500];
 let requiredPower = 3500; 
 let totalPower = 0;
+
+for(let i = 0; i < computers.length; i++){
+    totalPower += computers[i];
+}
 
 
 // Console Log all Odd number between 1 & 100 using the modulo operator... 
