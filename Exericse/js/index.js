@@ -7,6 +7,15 @@
 let users = ["Jim", "Mike", "Dave", "Josh", "Tim", "Jane", "Susan", "Haley", "Matthew", "John", "Spencer", "Stephan", "Mable", "Steve", "Jacob", "Ruby", "Adam", "Bruce"];
 let stevePresent = false; 
 
+for(let i = 0; i < users.length; i++){
+    console.log(users[i])
+    if(users[i] === "Steve"){
+        stevePresent = true;
+    }
+}
+
+console.log("Is Steve on the list? Answer: " + stevePresent)
+
 
 
 // The Array below contains a series of computer power watts, each value is one computer.
